@@ -8083,6 +8083,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "/Users/macuser2/Documents/GitHub/Picies/WirelessPCBProject/marbastlib/3d/Switch_SKQG.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
@@ -9247,6 +9252,19 @@
   (segment (start 287.95625 175.68125) (end 287.95625 174.76875) (width 0.25) (layer "B.Cu") (net 121) (tstamp ca20bb4b-874f-4401-a1f5-438c5df764d4))
   (segment (start 287.3375 176.3) (end 287.95625 175.68125) (width 0.25) (layer "B.Cu") (net 121) (tstamp f541a551-2ee8-43f7-8e95-99350a1db5a0))
 
+  (zone (net 1) (net_name "GND") (layer "F.Cu") (tstamp 77d9e845-6e64-4168-a6fc-54e9dbe0601e) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 311.94375 175.50625)
+        (xy 299.24375 175.50625)
+        (xy 299.24375 162.0125)
+        (xy 311.94375 162.0125)
+      )
+    )
+  )
   (zone (net 1) (net_name "GND") (layer "B.Cu") (tstamp 77d9e845-6e64-4168-a6fc-54e9dbe0601e) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
@@ -9257,6 +9275,19 @@
         (xy 299.24375 175.50625)
         (xy 299.24375 162.0125)
         (xy 311.94375 162.0125)
+      )
+    )
+  )
+  (zone (net 1) (net_name "GND") (layer "B.Cu") (tstamp b416e6c5-da9a-4271-bf1b-e383e4439298) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 296.06875 88.9)
+        (xy 284.95625 88.9)
+        (xy 284.95625 81.75625)
+        (xy 296.06875 81.75625)
       )
     )
   )
